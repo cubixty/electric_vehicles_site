@@ -1,6 +1,20 @@
-header {
-    
+.header {
+    margin-top: 2%;
+    margin-left: 80%;
 
+
+}
+
+.order , h1{
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+
+.particles-js {
+       width: 100%;
+       height: 100%; 
 
 
 }
