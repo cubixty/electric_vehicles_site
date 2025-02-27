@@ -1,21 +1,44 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.videorolls,
+video {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .header {
-    margin-top: 2%;
-    margin-left: 80%;
-
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 20%;
+    padding: 2.5%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    color: white;
 }
 
-.order , h1{
+.header a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    padding-top: 2%;
+    margin-left: 40px;
+    float: right;
+    padding-right: 3%;
 
-}
-
-
-.particles-js {
-       width: 100%;
-       height: 100%; 
 
 
 }
 
+.order h1 {
+    text-align: center;
+    padding: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 10000;
+}
