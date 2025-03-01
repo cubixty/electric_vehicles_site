@@ -15,7 +15,7 @@ a {
     padding: 10px;
     pointer-events: painted;
     text-decoration: none;
-    colorrgb(255, 255, 255)ck;
+    color : rgb(255, 255, 255)ck;
 }
 
 .header,
