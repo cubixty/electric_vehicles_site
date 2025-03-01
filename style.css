@@ -3,6 +3,37 @@ body {
     width: 100%;
 }
 
+.header {
+    position: absolute;
+    left: 1400px;
+    top: 10px;
+    font-size: 25px;
+}
+
+.header,
+a {
+    padding: 10px;
+    pointer-events: painted;
+    text-decoration: none;
+    colorrgb(255, 255, 255)ck;
+}
+
+.header,
+a:link {
+    color: white;
+}
+
+.header,
+a:visited {
+    color: white;
+}
+
+.header,
+a:hover {
+    color: rgb(180, 180, 180);
+}
+
+
 .videorolls,
 video {
     position: absolute;
@@ -15,34 +46,13 @@ video {
     z-index: -1;
 }
 
-.header {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-right: 20%;
-    padding: 2.5%;
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    color: white;
-}
-
-.header a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    margin-left: 40px;
-    float: right;
-    padding-right: 3%;
-
-
-
-}
-
 .order h1 {
     text-align: center;
     padding: 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     z-index: 10000;
     color: white;
+    font-size: 40px;
 }
 
 .alexandria-font121212 {
