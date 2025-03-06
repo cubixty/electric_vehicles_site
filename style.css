@@ -10,7 +10,6 @@ body {
 .header {
     position: relative;
     left: 0px;
-    top: 10px;
     font-size: 20px;
 }
 
@@ -72,7 +71,7 @@ img {
 
 .order h1 {
     text-align: center;
-    margin-top: 13%;
+    margin-top: 17.5%;
     padding: 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     z-index: 10000;
@@ -84,9 +83,17 @@ img {
 
 #logo {
     z-index: 1;
-    width: 300px;
+    width: 2300px;
     height: 30px;
     left: 40px;
-    top: 35px;
+    top: 28px;
+    max-width: fit-content
 }
 
+#login {
+    z-index: 5;
+    width: 30px;
+    height: 30px;
+    margin-left: 1750px;
+    top: -10px;
+}
