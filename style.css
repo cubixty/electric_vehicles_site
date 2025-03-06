@@ -20,6 +20,7 @@ a {
     text-decoration: none;
     color: rgb(255, 255, 255)ck;
     font-size: 19px;
+    
 }
 
 .header,
@@ -70,13 +71,19 @@ img {
 }
 
 .order h1 {
+    position: absolute;
+    left: 310px;
     text-align: center;
-    margin-top: 17.5%;
+    margin-top: 6.2%;
     padding: 5%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    z-index: 10000;
+    font-family: "Lexend Peta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 1;
     color: white;
     font-size: 40px;
+    
 }
 
 
@@ -96,4 +103,18 @@ img {
     height: 30px;
     margin-left: 1750px;
     top: -10px;
+}
+.scrolltext h1 {
+    font-family: "Lexend Peta", sans-serif;
+    z-index: 2;
+    position: absolute;
+    font-weight: 400;
+    font-size: 38px;
+    left: 1070px;
+    color: white;
+    top: 250px;
+}
+
+.container {
+    position: relative;
 }

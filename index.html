@@ -3,6 +3,11 @@
 
 <head>
   <title>EVolution™</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Lexend+Peta:wght@100..900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
@@ -31,13 +36,25 @@
     </div>
 
   </div>
-  <div class="order">
-    <h1>THIS IS THE ROLLS-ROYCE SPECTRE</h1>
-
-
-
+  <div class="container">
+    <div class="order">
+      <h1>THIS IS THE ROLLS-ROYCE SPECTRE</h1>
+    </div>
+    <div class="scrolltext">
+      <h1>THE <span class="auto-type"></span></h1>
+    </div>
   </div>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
+  <script>
+    var typed = new Typed(".auto-type", {
+      strings : ["FUTURE" , "SOLUTION" , "REVOLUTION"],
+      typeSpeed : 80,
+      backSpeed : 80,
+      loop : true,
+      loopCount : Infinity
+    });
+  </script>
 
 
 
