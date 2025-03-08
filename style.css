@@ -58,8 +58,8 @@ video {
     z-index: -1;
 }*/
 
-.pngrolls,
-img {
+.pngrolls img
+ {
     position: absolute;
     top: 0;
     left: 0;
@@ -67,7 +67,17 @@ img {
     height: 100%;
     object-fit: cover;
     z-index: -1;
+}
 
+.pngstars img
+ {
+    position: absolute;
+    top: 952px;
+    bottom: 50px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
 }
 
 .order h1 {
@@ -117,4 +127,15 @@ img {
 
 .container {
     position: relative;
+}
+
+.pngstars,
+img {
+    position: absolute;
+    top: 1;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
 }
